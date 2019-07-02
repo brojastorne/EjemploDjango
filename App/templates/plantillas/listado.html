@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Listado</title>
+	</head>
+	<body>
+		<p>El listado</p>
+		<ul>
+			{% for d in datos %}
+				<li>{{ d.last_name }}, {{d.first_name}} </li>
+			{% endfor %}
+		</ul>
+	</body>
+</html>
