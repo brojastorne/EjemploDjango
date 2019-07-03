@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 
 <html lang="es">
@@ -5,6 +6,7 @@
 		<title>Página Principal</title>
 	</head>
 	<body>
+	<img src="{% static "img/nariz3.png" %}" />
 		<p>Dime tus datos</p>
 		<form action="contacto" method="post">
 		  {% csrf_token %}
